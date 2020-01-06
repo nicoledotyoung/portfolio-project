@@ -49,6 +49,7 @@ footer{
 header{
     background: url("../img/hero-opt-1.jpg") no-repeat;
     background-size: cover;
+    margin-bottom: 0;
 }
 nav{
     float: right;
@@ -84,10 +85,53 @@ header #intro span{
     font-size: 150px;
     font-weight: lighter;
     padding-left: 20px;
+    color: gray;
+    letter-spacing: 3px;
 }
 
 header h2{
     font-family: "cabin";
-    font-size: 25px;
+    font-size: 35px;
     letter-spacing: 2px;
+    font-weight: lighter;
+   
+}
+
+/* MAIN */
+/* ABOUT SECTION */
+#about{
+    margin-top: 275px;
+}
+#about h3{
+    text-align: center;
+    font-family: "spectral";
+    font-size: 25px;
+
+}
+
+ #headshot {
+    margin: 40px 400px;
+    border-radius: 50%;
+   
+}
+
+#about h4{
+    text-align: center;
+    font-family: "cabin";
+
+}
+
+#about h4 span{
+    color: gray;
+}
+
+#about p{
+    text-align: center;
+    margin-left: 400px;
+    
+}
+
+#about #outro{
+    clear: both;
+    margin-left: 0;
 }
