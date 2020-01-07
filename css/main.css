@@ -1,0 +1,207 @@
+/* BODY BASE STYLES */
+
+@font-face {
+font-family: "taken";
+src: url('../fonts/taken.otf') format('opentype');
+}
+
+body{
+    width: 1400px;
+    /* margin-left: 50px; */
+}
+p{
+    font-family: "spectral";
+    color: #1e1e1e;
+}
+
+/* GRID */
+header{
+    height: 800px
+}
+
+#about{
+    height: 1050px;
+    
+}
+
+#portfolio{
+    height: 850px;
+}
+
+footer{
+    height: 650px;
+}
+
+.full-width{
+    width: 1200px;
+    margin: 0 40px;
+}
+
+.half-width{
+    width: 600px;
+}
+
+.third-width{
+    width: 400px;
+    float: left;
+}
+/* HEADER */
+header{
+    background: url("../img/hero-opt-1.jpg") no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+}
+nav{
+    float: right;
+    padding: 100px auto;
+    font-family: "cabin";
+}
+
+nav ul li{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+nav ul li a{
+    text-transform: small-caps;
+    text-decoration: none;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+header #intro{
+    clear: both;
+    padding-top: 300px;
+    text-align: center;
+}
+header #intro h1{
+    line-height: 130px;
+    font-family: "spectral";
+    font-size: 50px;
+}
+
+header #intro span{
+    font-family: "taken";
+    font-size: 150px;
+    font-weight: lighter;
+    padding-left: 20px;
+    color: gray;
+    letter-spacing: 3px;
+}
+
+header h2{
+    font-family: "cabin";
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+   
+}
+
+/* MAIN */
+/* ABOUT SECTION */
+#about{
+    margin-top: 275px;
+}
+#about h3{
+    text-align: center;
+    font-family: "spectral";
+    font-size: 25px;
+
+}
+
+ #headshot {
+    margin: 40px 400px;
+    border-radius: 50%;
+   
+}
+
+#about h4{
+    text-align: center;
+    font-family: "cabin";
+
+}
+
+#about h4 span{
+    color: gray;
+}
+
+#about p{
+    text-align: center;
+    margin-left: 400px;
+    
+}
+
+#about #outro{
+    clear: both;
+    margin-left: 0;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+    background: lightgrey;
+    
+}
+
+#portfolio h3{
+    text-align: center;
+    font-family: "spectral";
+    font-size: 25px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+#portfolio h5{
+    font-family: "cabin";
+    text-align: center;
+}
+
+#portfolio p{
+    font-family: "spectral";
+    text-align: center;
+}
+
+#rogue #rogueimg{
+    margin-left: 20px;
+    clear: both;
+}
+
+#holstee #holsteeimg{
+    margin-left: 85px;
+    
+}
+
+/* FOOTER */
+
+footer h3{
+    text-align: center;
+    font-family: "spectral";
+    font-size: 25px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+footer #contact{
+    text-align: center;
+}
+
+footer #socials{
+    text-align: center;
+}
+
+footer ul{
+    margin-right: 50px;
+}
+footer ul li{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+footer #meet{
+    text-align: center;
+}
+
+footer #copyright{
+    clear: both;
+    text-align: center;
+    padding-top: 150px;
+}
