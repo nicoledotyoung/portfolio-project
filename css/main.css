@@ -135,3 +135,73 @@ header h2{
     clear: both;
     margin-left: 0;
 }
+
+/* PORTFOLIO */
+
+#portfolio {
+    background: lightgrey;
+    
+}
+
+#portfolio h3{
+    text-align: center;
+    font-family: "spectral";
+    font-size: 25px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+#portfolio h5{
+    font-family: "cabin";
+    text-align: center;
+}
+
+#portfolio p{
+    font-family: "spectral";
+    text-align: center;
+}
+
+#rogue #rogueimg{
+    margin-left: 20px;
+    clear: both;
+}
+
+#holstee #holsteeimg{
+    margin-left: 85px;
+    
+}
+
+/* FOOTER */
+
+footer h3{
+    text-align: center;
+    font-family: "spectral";
+    font-size: 25px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+footer #contact{
+    text-align: center;
+}
+
+footer #socials{
+    text-align: center;
+}
+
+footer ul{
+    margin-right: 50px;
+}
+footer ul li{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+footer #meet{
+    text-align: center;
+}
+
+footer #copyright{
+    clear: both;
+    text-align: center;
+    padding-top: 150px;
+}
